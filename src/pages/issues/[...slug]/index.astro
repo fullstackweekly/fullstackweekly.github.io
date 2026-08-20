@@ -17,7 +17,7 @@ import AdjacentPostNav from "./_components/AdjacentPostNav.astro";
 import config from "@/config";
 
 export async function getStaticPaths() {
-  const posts = await getCollection("posts");
+  const posts = await getCollection("issues");
   const sortedPosts = getSortedPosts(posts);
 
   return sortedPosts.map((post, index) => ({
@@ -53,7 +53,7 @@ type AdjacentPost = {
 } | null;
 
 type Props = {
-  post: CollectionEntry<"posts">;
+  post: CollectionEntry<"issues">;
   prevPost: AdjacentPost;
   nextPost: AdjacentPost;
 };

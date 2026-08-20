@@ -3,7 +3,7 @@ import type { UIStrings } from "../types";
 export default {
   nav: {
     home: "Home",
-    posts: "Posts",
+    posts: "Issues",
     tags: "Tags",
     about: "About",
     archives: "Archives",
@@ -12,15 +12,15 @@ export default {
   post: {
     publishedAt: "Published at",
     updatedAt: "Updated",
-    sharePostIntro: "Share this post:",
-    sharePostOn: "Share this post on {{platform}}",
-    sharePostViaEmail: "Share this post via email",
+    sharePostIntro: "Share this issue:",
+    sharePostOn: "Share this issue on {{platform}}",
+    sharePostViaEmail: "Share this issue via email",
     tagLabel: "Tags",
     backToTop: "Back to top",
     goBack: "Go back",
     editPage: "Edit page",
-    previousPost: "Previous Post",
-    nextPost: "Next Post",
+    previousPost: "Previous Issue",
+    nextPost: "Next Issue",
   },
   pagination: {
     prev: "Prev",
@@ -30,8 +30,8 @@ export default {
   home: {
     socialLinks: "Social Links",
     featured: "Featured",
-    recentPosts: "Recent Posts",
-    allPosts: "All Posts",
+    recentPosts: "Recent Issues",
+    allPosts: "All Issues",
   },
   footer: {
     copyright: "Copyright",
@@ -44,21 +44,21 @@ export default {
     tagsTitle: "Tags",
     tagsDesc: "All the tags used in posts.",
 
-    postsTitle: "Posts",
-    postsDesc: "All the articles I've posted.",
+    postsTitle: "Issues",
+    postsDesc: "",
 
     archivesTitle: "Archives",
     archivesDesc: "All the articles I've archived.",
 
     searchTitle: "Search",
-    searchDesc: "Search any article ...",
+    searchDesc: "Search any issue ...",
   },
   a11y: {
     skipToContent: "Skip to content",
     openMenu: "Open menu",
     closeMenu: "Close menu",
     toggleTheme: "Toggle theme",
-    searchPlaceholder: "Search posts...",
+    searchPlaceholder: "Search issues...",
     noResults: "No results found",
     goToPreviousPage: "Go to previous page",
     goToNextPage: "Go to next page",
